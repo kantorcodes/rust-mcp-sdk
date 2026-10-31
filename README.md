@@ -22,7 +22,7 @@ A high-performance, asynchronous Rust toolkit for building MCP servers and clien
 
 **🥇 Tier 1 SDK:** passes 100% of scored conformance scenarios, and the official MCP conformance tool's `tier-check` reports **Tier 1** under SEP-1730. [Tier-check runs](https://github.com/rust-mcp-stack/rust-mcp-sdk/actions/workflows/tier-check.yml) · [release reports](https://github.com/rust-mcp-stack/rust-mcp-sdk/releases)
 
-✅ This SDK fully implements the [MCP 2026-07-28](https://docs.rs/rust-mcp-schema/latest/rust_mcp_schema/) stateless protocol and passes **100% of official MCP conformance tests**.
+✅ This SDK fully implements the [MCP 2026-07-28 specification](https://modelcontextprotocol.io/specification/2026-07-28/) (stateless), uses [`rust-mcp-schema`](https://docs.rs/rust-mcp-schema/latest/rust_mcp_schema/) for its type definitions, and passes **100% of official MCP conformance tests**.
 
 `rust-mcp-sdk` provides the necessary components for developing both servers and clients in the MCP ecosystem. It leverages the [rust-mcp-schema](https://crates.io/crates/rust-mcp-schema) crate for type-safe schema objects and includes powerful procedural macros.
 
